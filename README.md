@@ -5,6 +5,6 @@ It is under Construction.
 Things I Know:
 
 1.JavaScript
-1.NodeJs
-1.Repl.it
-1.Chalk
+2.NodeJs
+3.Repl.it
+4.Chalk
