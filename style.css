@@ -4,36 +4,153 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.logo {
-    height: 1vh;
+.header {
+    height: 10vh;
+    background-color: rgb(228, 226, 226);
 }
 
-.logo h1 {
+h1 {
     color: darkblue;
     padding: 10px;
+    background-color: rgb(228, 226, 226);
 }
 
-ul {
+nav ul {
     float: right;
     margin-top: 15px;
     list-style-type: none;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
 }
 
-ul li a {
+nav ul li a {
+    font-size: 18px;
+    color: darkblue;
     text-decoration: none;
     padding: 5px 20px;
 }
 
+hero {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hero .hero-img {
+    max-width: 350px;
+}
+
 main {
     display: inline-block;
-    margin-top: 60px;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 40px;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+main .about {
+    padding: 60px 60px 60px 100px;
     color: darkblue;
     background-color: cyan;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.projects {
+    margin: 10px;
+    padding: 40px 60px 40px 10px;
+    color: darkblue;
+    background-color: cyan;
+    border-radius: 0px 15px;
+}
+
+.btns {}
+
+.btns ul {
+    padding-top: 40px;
+}
+
+.project-1 {}
+
+.project-2 {
+    margin-top: 60px;
+}
+
+.btns ul li {
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline;
+}
+
+.btns ul li a {
+    text-decoration: none;
+    background-color: rgb(228, 226, 226);
+    margin: 20px;
+    padding: 20px 15px;
+    color: darkblue;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.blog {
+    color: darkblue;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.blog .content {
+    padding: 40px 60px 40px 10px;
+    color: darkblue;
+    background-color: cyan;
+}
+
+.about :hover {
+    color: cyan;
+    background-color: darkblue;
+}
+
+.tech-i-know {
+    margin-top: 60px;
+    padding: 60px 60px 60px 100px;
+    color: darkblue;
+    background-color: cyan;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.tech-i-know h4:hover {
+    color: cyan;
+    background-color: darkblue;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 60px 60px 60px 100px;
+    background-color: rgb(228, 226, 226);
+    color: darkblue;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    text-decoration: none;
+    display: inline;
+}
+
+footer ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
 }
