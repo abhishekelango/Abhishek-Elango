@@ -178,8 +178,6 @@ footer ul li a {
 
 .blog-content .heading {
     text-align: center;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .blog-content a {
@@ -190,6 +188,8 @@ footer ul li a {
 
 .blog-content>a {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .blog .content .laptop {
