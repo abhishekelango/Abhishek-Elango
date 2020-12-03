@@ -154,3 +154,48 @@ footer ul li a {
     text-decoration: none;
     padding: 10px;
 }
+
+.blog-content {
+    margin: 10px;
+    margin-top: 60px;
+    padding: 80px 80px;
+    background-color: cyan;
+    border-radius: 15px 0px;
+}
+
+.blog-content {
+    margin: 10px;
+    display: inline-block;
+    color: darkblue;
+}
+
+.blog-content .laptop {
+    max-width: 350px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.blog-content .heading {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-content a {
+    color: darkblue;
+    margin: 50px;
+    text-decoration: none;
+}
+
+.blog-content>a {
+    display: flex;
+}
+
+.blog .content .laptop {
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
