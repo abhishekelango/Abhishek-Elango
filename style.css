@@ -169,13 +169,6 @@ footer ul li a {
     color: darkblue;
 }
 
-.blog-content .laptop {
-    max-width: 350px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
 .blog-content .heading {
     text-align: center;
 }
