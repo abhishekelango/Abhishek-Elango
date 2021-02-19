@@ -4,8 +4,16 @@
     font-family: monospace;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 header {
-    background-color: blue;
+    background-color: rgb(83, 83, 253);
     height: 10vh;
     color: yellow;
 }
@@ -46,15 +54,10 @@ main {
 }
 
 main .about {
-    background-color: blue;
+    background-color: rgb(63, 63, 248);
     color: yellow;
     padding: 40px;
     border-radius: 0 15px;
-}
-
-main .about:hover {
-    background-color: skyblue;
-    color: black;
 }
 
 main .about h3 {
@@ -63,7 +66,7 @@ main .about h3 {
 
 main .tech-i-know {
     margin-top: 2rem;
-    background-color: blue;
+    background-color: rgb(63, 63, 248);
     color: yellow;
     padding: 40px;
     border-radius: 0 15px;
@@ -73,13 +76,8 @@ main .tech-i-know h3 {
     margin: 10px 0;
 }
 
-main .tech-i-know:hover {
-    background-color: skyblue;
-    color: black;
-}
-
 footer {
-    background-color: blue;
+    background-color: rgb(63, 63, 248);
     color: yellow;
 }
 
@@ -99,4 +97,94 @@ footer .lets-chat .sm-links img {
     max-width: 25px;
     padding: 2rem;
     display: inline-block;
+}
+
+.blog-listing a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.blog-listing ul li {
+    background-color: rgb(63, 63, 248);
+    list-style: none;
+    padding: 8rem 2rem;
+    margin: 2rem;
+}
+
+.first-blog p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    color: yellow;
+}
+
+.projects {
+    /* background-color: blue; */
+    margin: 6rem 0;
+    font-size: 2rem;
+}
+
+.project-1 {
+    background-color: rgb(63, 63, 248);
+    color: yellow;
+    padding: 30px 20px;
+}
+
+.project-2 {
+    background-color: rgb(63, 63, 248);
+    color: yellow;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+button {
+    color: white;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 14px 28px;
+    border-radius: 6px 0;
+}
+
+.btns {
+    color: white;
+}
+
+button {
+    border: 1px solid black;
+}
+
+.prjcts-btn {
+    background-color: yellow;
+}
+
+.blog {
+    margin: 2rem 8rem 4rem 8rem;
+    background-color: rgb(63, 63, 248);
+    color: yellow;
+}
+
+.blog h2 {
+    padding: 0 20%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.content p {
+    padding: 10px;
+    margin: 0 15%;
+}
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    padding: 20px;
 }
